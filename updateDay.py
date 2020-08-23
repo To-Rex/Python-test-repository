@@ -2,7 +2,7 @@ import os
 from random import randint
 
 for i in range(0,randint(1,3)):
-    d = '2020-7-23'
+    d = '2020-8-23'
     with open('file.txt', 'a') as file:
         file.write(d + "\n")
     os.system('git add .')
