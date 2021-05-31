@@ -1,7 +1,7 @@
 import os
 from random import randint
 
-for i in range(0,15):
+for i in range(0,3):
     for j in range(0,randint(5,11)):
         d = '2021-6-' + str(i+1) + ' ' + str(j) + ':00:00'
         with open('file.txt', 'a') as file:
