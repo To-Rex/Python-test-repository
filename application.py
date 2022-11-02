@@ -22,7 +22,7 @@ from random import randint
 
 #2022-6-11 day commit 
 for i in range(0,randint(5,11)):
-    d = '2022-6-2'
+    d = '2022-11-2'
     with open('file.txt', 'a') as file:
         file.write(d + "\n")
     os.system('git add .')
