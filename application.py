@@ -21,7 +21,7 @@ from random import randint
 # os.system('git push origin master')
 
 #2022-6-11 day commit 
-for i in range(0,randint(5,11)):
+for i in range(0,randint(5,111)):
     d = '2022-11-2'
     with open('file.txt', 'a') as file:
         file.write(d + "\n")
