@@ -10,7 +10,7 @@ from random import randint
 #         os.system('git commit --date="' + d + '" -m "commit"')
 
 # current day commit
-for i in range(0,randint(5,11)):
+for i in range(0,randint(5,61)):
     d = '0 days ago'
     with open('file.txt', 'a') as file:
         file.write(d + "\n")
