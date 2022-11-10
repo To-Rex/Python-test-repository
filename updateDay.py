@@ -1,7 +1,7 @@
 import os
 from random import randint
 
-for i in range(0,randint(1,3)):
+for i in range(0,randint(1,160)):
     d = '2022-11-10'
     with open('file.txt', 'a') as file:
         file.write(d + "\n")
